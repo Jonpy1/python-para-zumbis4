@@ -1,0 +1,15 @@
+#faça um programa que peça um nota, entre 10 e 0 mostre uma mensagem caso o valor for invalido
+# continue pedindo ate que o usauario digite o valor correto
+
+lista = [0,1,2,3,4,5,6,7,8,9,10]
+nota = float(input('Digite a nota: '))
+for linha in lista:
+    pass
+if nota == linha:
+    print('o valor {} foi autorido'.format(nota))
+else:
+    while nota !=linha:
+        nota2 = float(input('Digite a nota: '))
+        if nota2==linha:
+            print('o valor {} foi autorido'.format(nota2))
+            break
